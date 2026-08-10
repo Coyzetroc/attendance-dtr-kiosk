@@ -16,6 +16,7 @@ import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.face.Face
 import com.google.mlkit.vision.face.FaceDetection
 import com.google.mlkit.vision.face.FaceDetectorOptions
+import com.attendance.dtr.kiosk.R
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

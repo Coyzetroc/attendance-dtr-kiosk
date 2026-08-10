@@ -58,7 +58,8 @@ class GoogleSheetsService {
             val body = ValueRange()
                 .setValues(values as List<List<Any>>)
 
-            val spreadsheetId = "YOUR_SPREADSHEET_ID" // Replace with actual ID
+            // REPLACE THIS WITH YOUR ACTUAL SPREADSHEET ID
+            val spreadsheetId = "YOUR_SPREADSHEET_ID_HERE"
             val range = "Sheet1!A1"
 
             sheetsService.spreadsheets().values()
