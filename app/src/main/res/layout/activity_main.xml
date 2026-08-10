@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Attendance Kiosk"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_time_in"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="TIME IN"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_time_out"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="TIME OUT"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_view_report"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="VIEW REPORT"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_last_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last: --"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+</LinearLayout>
